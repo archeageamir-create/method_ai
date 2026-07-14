@@ -57,3 +57,9 @@
 | DOC-053 | TRANSFORMATION_DRY_RUN_RESULTS_2026-07-14.csv | 0.1 | Смагулов А.К. | 80 обезличенных строк, baseline и transformed scores | Не использовать для подбора порога |
 | DOC-054 | build-transformation-dry-run.py | 0.1 | Смагулов А.К. | Воспроизводимо создал 80 производных файлов | Хранить исходные изображения и manifests только локально |
 | DOC-055 | summarize-transformation-dry-run.py | 0.1 | Смагулов А.К. | Сформировал CSV и отчёт из raw outputs | Повторять только после контролируемого изменения входов |
+| DOC-056 | STATISTICAL_ANALYSIS_PLAN_V0_1.md | 0.1 | Смагулов А.К. | Численные критерии и размеры выборки рассчитаны | Передать независимому статистическому reviewer до заморозки |
+| DOC-057 | SAMPLE_SIZE_SCENARIOS_V0_1.csv | 0.1 | Смагулов А.К. | 7 exact binomial сценариев проверены | Пересоздавать только зафиксированным скриптом |
+| DOC-058 | calculate-binomial-gates.py | 0.1 | Смагулов А.К. | Проверен с SciPy 1.14.1 | Зафиксировать hash и runtime при preregistration |
+| DOC-059 | FORM-V1-01_INTERNAL_HOLDOUT_PREREGISTRATION.md | 0.1 | Смагулов А.К. | Шаблон создан | Заполнить и подписать до передачи закрытых данных |
+| DOC-060 | FORM-V1-02_LABEL_RELEASE_PROTOCOL.md | 0.1 | Смагулов А.К. | Шаблон создан | Использовать после фиксации raw outputs |
+| DOC-061 | FORM-V1-03_VALIDATION_RESULTS.csv | 0.1 | Смагулов А.К. | Шаблон создан | Заморозить заполненную структуру до раскрытия labels |

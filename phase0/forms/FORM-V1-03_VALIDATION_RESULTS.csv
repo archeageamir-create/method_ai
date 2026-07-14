@@ -1,0 +1,1 @@
+protocol_id,module_id,object_profile,subgroup,ground_truth,n_parents,true_positive,false_positive,true_negative,false_negative,technical_failures,coverage,tpr,tpr_lower_95_one_sided,fpr,fpr_upper_95_one_sided,roc_auc,pr_auc,eer,brier_score,passed_tpr,passed_fpr,passed_technical,passed_group_guardrail,scope_decision,notes

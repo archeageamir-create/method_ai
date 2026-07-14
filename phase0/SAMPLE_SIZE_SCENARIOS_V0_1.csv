@@ -1,0 +1,8 @@
+﻿n_per_class,confidence_one_sided,target_tpr_lower,minimum_true_positives,observed_tpr_at_gate,exact_lower_tpr_at_gate,assumed_true_tpr,power_to_pass_tpr_gate,target_fpr_upper,maximum_false_positives,observed_fpr_at_gate,exact_upper_fpr_at_gate,assumed_true_fpr,power_to_pass_fpr_gate,exact_upper_fpr_if_zero,method
+50,0.95,0.8,45,0.900000,0.801167,0.85,0.219353,0.05,,,,0.02,,0.058155,Clopper-Pearson exact one-sided
+100,0.95,0.8,87,0.870000,0.801280,0.85,0.347425,0.05,1,0.010000,0.046560,0.02,0.403272,0.029513,Clopper-Pearson exact one-sided
+150,0.95,0.8,129,0.860000,0.804690,0.85,0.419589,0.05,2,0.013333,0.041375,0.02,0.420926,0.019773,Clopper-Pearson exact one-sided
+200,0.95,0.8,170,0.850000,0.802089,0.85,0.548511,0.05,4,0.020000,0.045180,0.02,0.628844,0.014867,Clopper-Pearson exact one-sided
+250,0.95,0.8,211,0.844000,0.801219,0.85,0.645122,0.05,6,0.024000,0.046817,0.02,0.763673,0.011911,Clopper-Pearson exact one-sided
+300,0.95,0.8,252,0.840000,0.801029,0.85,0.718586,0.05,8,0.026667,0.047600,0.02,0.849333,0.009936,Clopper-Pearson exact one-sided
+400,0.95,0.8,334,0.835000,0.801392,0.85,0.819438,0.05,12,0.030000,0.048154,0.02,0.938141,0.007461,Clopper-Pearson exact one-sided
