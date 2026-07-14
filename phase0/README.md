@@ -28,4 +28,5 @@
 - `PILOT_REAL_DRY_RUN_2026-07-14.md` и `REAL_DRY_RUN_RESULTS_2026-07-14.csv` — development-результаты на 20 реальных фото;
 - `PILOT_AI_DRY_RUN_2026-07-14.md` и `AI_DRY_RUN_RESULTS_2026-07-14.csv` — development-результаты на 20 AI-изображениях;
 - `PILOT_DRY_RUN_40_SUMMARY_2026-07-14.md` — общая сводка открытого dry run;
+- `RELATED_RESEARCH_COMPARISON_2026-07-14.md` — сравнение с близкими исследованиями и официальными evaluation frameworks;
 - `licenses/` — зафиксированные лицензии детекторов и использованных локальных генераторов.

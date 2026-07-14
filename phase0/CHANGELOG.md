@@ -1,5 +1,14 @@
 # История изменений стартового пакета
 
+## 1.0 — 2026-07-14
+
+- выполнен сравнительный обзор десяти первичных научных и официальных источников по AI-image detection, benchmark и image authentication;
+- зафиксировано отличие проекта от detector papers: цель проекта — валидированная судебно-экспертная процедура, а не новый classifier;
+- сопоставлены UniversalFakeDetect, GenImage, DIRE, Semi-Truths, Community Forensics, SPAI, AIGIBench, NIST GenAI, NIST AI 100-4 и SWGDE;
+- план валидации дополнен EER, Brier score, TPR при фиксированном FPR, coverage/`Hu` и правилами cross-generator/cross-camera holdout;
+- матрица преобразований дополнена Gaussian noise и downsample→upsample профилями;
+- замечание S-3 переведено из открытого в частично закрытое; полный систематический обзор остаётся обязательным.
+
 ## 0.9 — 2026-07-14
 
 - создан контролируемый development-набор из 20 AI-изображений трёх семейств: OpenAI, SDXL-Turbo и Stable Diffusion 1.5;

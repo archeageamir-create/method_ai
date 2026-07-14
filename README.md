@@ -33,6 +33,7 @@
 - [phase0/PILOT_AI_DRY_RUN_2026-07-14.md](phase0/PILOT_AI_DRY_RUN_2026-07-14.md) — отчёт по 20 контролируемым AI-изображениям;
 - [phase0/AI_DRY_RUN_RESULTS_2026-07-14.csv](phase0/AI_DRY_RUN_RESULTS_2026-07-14.csv) — обезличенные AI-scores и происхождение генераторов;
 - [phase0/PILOT_DRY_RUN_40_SUMMARY_2026-07-14.md](phase0/PILOT_DRY_RUN_40_SUMMARY_2026-07-14.md) — общая сводка 20 real + 20 AI;
+- [phase0/RELATED_RESEARCH_COMPARISON_2026-07-14.md](phase0/RELATED_RESEARCH_COMPARISON_2026-07-14.md) — похожие исследования, их методы и отличие проекта;
 - [phase0/licenses/](phase0/licenses/) — лицензии и доказательства лицензирования используемых open-source проектов.
 
 ## Данные и приватность
