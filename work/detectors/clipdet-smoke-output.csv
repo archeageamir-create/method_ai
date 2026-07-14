@@ -1,0 +1,6 @@
+filename,clipdet_latent10k_plus,fusion
+../community-forensics/test_images/00000274.png,0.9666419,0.96664184
+../community-forensics/test_images/00000420.png,-0.15250069,-0.15250075
+../community-forensics/test_images/00000845.png,1.9483905,1.9483904
+../community-forensics/test_images/00000916.png,0.2434772,0.24347717
+../community-forensics/test_images/00000989.png,-0.07019943,-0.07019949

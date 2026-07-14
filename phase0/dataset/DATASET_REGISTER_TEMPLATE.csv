@@ -1,0 +1,1 @@
+sample_id,family_id,parent_sample_id,split,ground_truth,truth_basis,source_type,source_name,source_version,original_filename,stored_filename,file_format,width,height,sha256,acquired_at,acquired_by,license_or_permission,transformation,transformation_params,notes

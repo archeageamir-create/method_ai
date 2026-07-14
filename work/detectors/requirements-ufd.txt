@@ -1,0 +1,4 @@
+# Shared GPU base: ../../../.venv (torch 2.12.1+cu132, torchvision 0.27.1+cu132)
+tqdm==4.68.4
+ftfy==6.3.1
+regex==2026.7.10

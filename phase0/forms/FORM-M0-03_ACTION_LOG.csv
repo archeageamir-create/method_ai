@@ -1,0 +1,2 @@
+log_id,case_id,object_id,event_datetime,timezone,operator,action,tool,tool_version,parameters,input_sha256,output_path,output_sha256,result,status,notes
+

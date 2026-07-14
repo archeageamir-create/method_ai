@@ -1,0 +1,2 @@
+event_id,case_id,object_id,event_datetime,timezone,from_person_or_location,to_person_or_location,action,purpose,container_or_path,seal_or_access_state,performed_by,notes
+

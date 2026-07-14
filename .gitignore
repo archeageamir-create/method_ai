@@ -1,0 +1,28 @@
+# Local Python runtimes and caches
+.venv/
+**/__pycache__/
+
+# Downloaded detector sources, environments and model weights
+work/detectors/.venv-community/
+work/detectors/.venv-ufd/
+work/detectors/.venv-spai/
+work/detectors/.venv-clipdet/
+work/detectors/models/
+work/detectors/community-forensics/
+work/detectors/universal-fake-detect/
+work/detectors/spai/
+work/detectors/clipbased/
+
+# Local work products
+tmp/
+output/
+work/dataset-tools/test-transformations/
+work/datasets/
+
+# Reference binaries kept locally/private, not published to the public GitHub repo
+/*.pdf
+references/**/*.pdf
+references/**/*.docx
+references/**/*.pptx
+*.gdoc
+*.gslides

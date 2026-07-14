@@ -1,0 +1,5 @@
+# Shared GPU base: ../../../.venv (torch 2.12.1+cu132, torchvision 0.27.1+cu132)
+timm==1.0.15
+huggingface-hub==0.36.0
+transformers==4.53.2
+opencv-python==4.11.0.86
