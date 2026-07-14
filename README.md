@@ -40,6 +40,7 @@
 - [phase0/TRANSFORMATION_DRY_RUN_RESULTS_2026-07-14.csv](phase0/TRANSFORMATION_DRY_RUN_RESULTS_2026-07-14.csv) — 80 обезличенных строк с парными scores и сменами решений;
 - [phase0/STATISTICAL_ANALYSIS_PLAN_V0_1.md](phase0/STATISTICAL_ANALYSIS_PLAN_V0_1.md) — размеры выборки, точные границы и численные критерии приемки;
 - [phase0/SAMPLE_SIZE_SCENARIOS_V0_1.csv](phase0/SAMPLE_SIZE_SCENARIOS_V0_1.csv) — воспроизводимые сценарии точных binomial bounds;
+- [phase0/dataset/PUBLIC_DATASET_ACQUISITION_PLAN_V0_1.md](phase0/dataset/PUBLIC_DATASET_ACQUISITION_PLAN_V0_1.md) — какие публичные датасеты подходят и какие нельзя считать независимыми;
 - [phase0/RELATED_RESEARCH_COMPARISON_2026-07-14.md](phase0/RELATED_RESEARCH_COMPARISON_2026-07-14.md) — похожие исследования, их методы и отличие проекта;
 - [phase0/licenses/](phase0/licenses/) — лицензии и доказательства лицензирования используемых open-source проектов.
 

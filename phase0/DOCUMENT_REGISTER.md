@@ -63,3 +63,10 @@
 | DOC-059 | FORM-V1-01_INTERNAL_HOLDOUT_PREREGISTRATION.md | 0.1 | Смагулов А.К. | Шаблон создан | Заполнить и подписать до передачи закрытых данных |
 | DOC-060 | FORM-V1-02_LABEL_RELEASE_PROTOCOL.md | 0.1 | Смагулов А.К. | Шаблон создан | Использовать после фиксации raw outputs |
 | DOC-061 | FORM-V1-03_VALIDATION_RESULTS.csv | 0.1 | Смагулов А.К. | Шаблон создан | Заморозить заполненную структуру до раскрытия labels |
+| DOC-062 | PUBLIC_DATASET_ACQUISITION_PLAN_V0_1.md | 0.1 | Смагулов А.К. | Shortlist и правила отбора созданы | Архивировать license evidence до скачивания полного корпуса |
+| DOC-063 | PUBLIC_DATASET_CANDIDATES_V0_1.csv | 0.1 | Смагулов А.К. | 10 кандидатов классифицированы | Обновлять после проверки terms и overlap |
+| DOC-064 | SYNTHBUSTER_DATASET_EVIDENCE.md | 0.1 | Смагулов А.К. | DOI, размер, checksum и лицензия зафиксированы | Проверить model overlap до отбора |
+| DOC-065 | AIGIBENCH_DATASET_EVIDENCE.md | 0.1 | Смагулов А.К. | Commit и repository license зафиксированы | Проверить source-specific terms subsets |
+| DOC-066 | GENIMAGE_DATASET_EVIDENCE.md | 0.1 | Смагулов А.К. | Commit, license и ImageNet overlap зафиксированы | Использовать только в development |
+| DOC-067 | RAISE_DATASET_EVIDENCE.md | 0.1 | Смагулов А.К. | Размер, камеры и integrity claim зафиксированы | Архивировать download terms и RAW profile |
+| DOC-068 | WARWICK_DATASET_EVIDENCE.md | 0.1 | Смагулов А.К. | Размер, камеры и dataset statement зафиксированы | Найти фактические download terms |

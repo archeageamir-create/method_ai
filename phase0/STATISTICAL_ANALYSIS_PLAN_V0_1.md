@@ -60,6 +60,8 @@
 
 Итого полный план требует минимум **2000 независимых parents**: 400 development, 800 internal holdout и 800 external holdout. Производные файлы в это число не добавляются.
 
+Большая часть parents может быть выбрана из публичных forensic/AI datasets; создавать их вручную не требуется. Публичный набор включается только после проверки ground truth, лицензии изображений и overlap с training data каждого детектора. Рабочий shortlist приведён в [`dataset/PUBLIC_DATASET_ACQUISITION_PLAN_V0_1.md`](dataset/PUBLIC_DATASET_ACQUISITION_PLAN_V0_1.md).
+
 ## 5. Первичные критерии internal holdout
 
 Используется точная односторонняя 95% граница Clopper–Pearson.

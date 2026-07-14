@@ -1,5 +1,19 @@
 # История изменений стартового пакета
 
+## 1.3 — 2026-07-14
+
+- подтверждено, что основной validation corpus может быть собран преимущественно из публичных датасетов;
+- создан shortlist Synthbuster, AIGIBench, RAISE, Warwick, FloreView и HDR;
+- создан CSV-реестр кандидатов с ролью, объёмом, лицензией, training overlap и следующим действием;
+- Synthbuster отмечен как сильный AI-кандидат с 9 моделями, 12.4 GB и CC BY-NC-SA 4.0;
+- RAISE отмечен как camera-native real-кандидат, Warwick — как многокамерный forensic real-кандидат;
+- GenImage оставлен для development из-за ImageNet real и возможного generator overlap;
+- Community Forensics Dataset, VISION и Forchheim запрещены для independent validation Community Forensics из-за прямого training overlap;
+- до скачивания полного корпуса введена обязательная проверка license evidence, manifests и source overlap.
+- сохранены evidence cards Synthbuster, AIGIBench, GenImage, RAISE и Warwick;
+- для AIGIBench и GenImage зафиксированы Git commits и SHA-256 repository license;
+- через Zenodo API зафиксированы DOI, размер и MD5 архива Synthbuster.
+
 ## 1.2 — 2026-07-14
 
 - создан статистический план V0.1 с точными односторонними 95% границами Clopper–Pearson;
