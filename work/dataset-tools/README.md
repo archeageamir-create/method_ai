@@ -62,3 +62,16 @@
 ```
 
 Скрипт создаёт `TRANSFORM_MANIFEST.csv` с параметрами, размерами и SHA-256 каждого производного файла. Скриншоты создаются отдельно вручную, потому что автоматическая перекодировка не имитирует настоящий скриншот.
+
+## Зафиксированный transformation dry run 2026-07-14
+
+`build-transformation-dry-run.py` воспроизводимо создаёт фиксированную подвыборку 5 real + 5 AI и восемь производных вариантов на каждый оригинал. Browser screenshot выполняется Microsoft Edge в headless-режиме и фиксируется отдельно от обычной перекодировки.
+
+```powershell
+& .\work\detectors\.venv-spai\Scripts\python.exe `
+  .\work\dataset-tools\build-transformation-dry-run.py
+```
+
+Для полного перестроения локальной папки добавляется `--overwrite`. Скрипт разрешает удаление только внутри `work/datasets`.
+
+После inference двух детекторов `summarize-transformation-dry-run.py` формирует публичный обезличенный CSV и Markdown-отчёт. Исходные и производные изображения остаются в исключённой из Git папке `work/datasets`.

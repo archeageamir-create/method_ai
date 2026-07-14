@@ -26,6 +26,12 @@
 
 После проверки автоматизации матрица расширяется до полного набора.
 
+## Исполнение первого цикла — 2026-07-14
+
+Первый цикл выполнен на заранее выбранных 5 real и 5 AI-оригиналах. Для каждого создано восемь вариантов: JPEG Q75, JPEG Q50, resize 50%, crop 10%, browser screenshot 100%, Gaussian noise sigma=4, downsample 50% → upsample nearest-neighbor и resize 50% + JPEG Q75. Оба детектора обработали все 80 производных файлов.
+
+Самым проблемным профилем стал JPEG Q50: Community Forensics сохранил условный сигнал `AI` на 3/5 AI, SPAI — на 2/5. Полный отчёт: [`../PILOT_TRANSFORMATION_DRY_RUN_2026-07-14.md`](../PILOT_TRANSFORMATION_DRY_RUN_2026-07-14.md).
+
 ## Сопоставимость с внешними benchmark
 
 - JPEG quality 50 и Gaussian noise σ=4 добавлены для сопоставления с robustness-профилями AIGIBench;
