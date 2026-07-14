@@ -1,0 +1,22 @@
+[
+  {
+    "item_id": "scene-01-office",
+    "prompt": "A photorealistic ordinary modern office desk near a window in daylight, closed silver laptop, ceramic mug, paper notebook, black pen, small green plant, realistic mixed natural and indoor light, subtle camera noise, no people, no readable text, no logos, no watermark"
+  },
+  {
+    "item_id": "scene-02-street",
+    "prompt": "A photorealistic quiet residential intersection after rain at blue hour, wet asphalt reflections, two parked ordinary cars, streetlights turning on, natural camera perspective and exposure, no readable license plates, no logos, no watermark"
+  },
+  {
+    "item_id": "scene-03-portrait",
+    "prompt": "A photorealistic portrait of a fictional adult man around 35 standing by a neutral concrete wall outdoors, casual dark jacket, natural skin texture, slightly imperfect framing, overcast daylight, no celebrity resemblance, no text, no logos, no watermark"
+  },
+  {
+    "item_id": "scene-04-breakfast",
+    "prompt": "A photorealistic close-up of a simple breakfast on a wooden kitchen table, fried egg, toast, sliced tomato, glass of water, crumbs and small imperfections, soft morning window light, no readable packaging, no text, no logos, no watermark"
+  },
+  {
+    "item_id": "scene-05-lake",
+    "prompt": "A photorealistic landscape of a small lake bordered by reeds and low hills on a cloudy spring day, muted colors, realistic atmospheric haze, slightly uneven handheld camera horizon, no people, no text, no watermark"
+  }
+]

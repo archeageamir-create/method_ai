@@ -25,3 +25,7 @@
 - `TECHNICAL_ENVIRONMENT_BASELINE.md` — подтверждённая конфигурация компьютера и инструментов;
 - `requirements-pytorch-cu132.txt` — зафиксированные зависимости проверенного PyTorch-окружения;
 - `REVIEW_RESPONSE_MATRIX.md` — статус замечаний критической рецензии.
+- `PILOT_REAL_DRY_RUN_2026-07-14.md` и `REAL_DRY_RUN_RESULTS_2026-07-14.csv` — development-результаты на 20 реальных фото;
+- `PILOT_AI_DRY_RUN_2026-07-14.md` и `AI_DRY_RUN_RESULTS_2026-07-14.csv` — development-результаты на 20 AI-изображениях;
+- `PILOT_DRY_RUN_40_SUMMARY_2026-07-14.md` — общая сводка открытого dry run;
+- `licenses/` — зафиксированные лицензии детекторов и использованных локальных генераторов.

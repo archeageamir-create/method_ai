@@ -19,13 +19,14 @@ if (-not $OutputPath) {
 }
 
 $resolvedInput = (Resolve-Path -LiteralPath $InputPath).Path
-New-Item -ItemType Directory -Force $OutputPath | Out-Null
+$resolvedOutput = [System.IO.Path]::GetFullPath($OutputPath)
+New-Item -ItemType Directory -Force $resolvedOutput | Out-Null
 
 Push-Location $repo
 try {
     & $python -m spai infer `
         --input $resolvedInput `
-        --output $OutputPath `
+        --output $resolvedOutput `
         --model $model `
         --resize-to $ResizeTo `
         --opt DATA.NUM_WORKERS $DataWorkers
@@ -37,4 +38,4 @@ finally {
     Pop-Location
 }
 
-Get-ChildItem -LiteralPath $OutputPath -Filter "*.csv"
+Get-ChildItem -LiteralPath $resolvedOutput -Filter "*.csv"
